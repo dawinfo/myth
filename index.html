@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>About Darwin (Dawen)</title>
+  <img src="img/poster.png" hidden="">
+</head>
+
+<body>
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#services">
+            <h1><img src="img/h1.png" class="is"><img src="img/h3.png" class="is"><img src="img/n.png" class="is"></span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">About Dawen?</a></li>
+            <li><a href="https://dawinfo.github.io/contact/">Contact</a></li>
+            <li><a href="https://galaxmess.github.io/GalaxyWebsite/?fbclid=IwAR3taB6LHiYZ2trW9NKysUxY4w6C4lKFYuv3GwnHHjqjYGh-X4WXZIwK6JI" data-after="Lyrics">GalaxWeb</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>"Be as you<span></span></h1>
+        <h1>   wish to seem".<span></span></h1>
+         <div class="right-col">
+                    <p>Socrates</p>
+                    <img src="img/play.png" id="icon" >
+                </div>
+                <audio id="mySong">
+                    <source src="img/mainbgm.mp3" type="audio/mp3">
+                </audio>
+                <script>
+                    var mySong = document.getElementById("mySong");
+                    var icon = document.getElementById("icon");
+
+                    icon.onclick = function(){
+                        if(mySong.paused){
+                            mySong.play();
+                            icon.src = "img/pause.png";
+                    }else{
+                        mySong.pause();
+                        icon.src = "img/play.png";
+                    }
+                }
+                </script>
+                    </div>
+
+            </section>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title"><span>About</span></h1>
+        <p>About Darwin Gacer (Dawen?)</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="img/d.png" / style="border-radius: 20px;"></div>
+          <h2><span style="color: red;">D</span>ate Website Created</h2>
+          <p>This Website was Created on September 20. 2022</p>
+          <p>Greek Mythology Concept</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/a.png" /></div>
+          <h2><span style="color: red;">A</span>ge</h2>
+          <p>I'm 19 Years old Born in Brgy. Banilad Nagcarlan Laguna</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/w.png" /></div>
+          <h2><span style="color: red;">W</span>riter</h2>
+          <p>This Website was created and written by Darwin Gacer for my Simple Information About myself.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/e.png" /></div>
+          <h2><span style="color: red;">E</span>ditor</h2>
+          <p>Editing Cinematic Videos, Lyrics, and Pictures</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/n.png" /></div>
+          <h2><span style="color: red;">N</span>ame</h2>
+          <p>Owner:</p>
+          <p>Darwin B. Gacer (Dawen)</p>
+       
+        </div>
+        <div class="service-item">
+          <div class="icon" ><img src="img/gr.png" /></div>
+           <div id="typing"> April 22<span> 2003</span></div>
+
+        </div>
+      </div>
+    </div>
+     <img src="img/soc.png" />
+  </section>
+  
+    </div>
+  </section>
+  <script src="./app.js"></script>
+</body>
+
+</html>
